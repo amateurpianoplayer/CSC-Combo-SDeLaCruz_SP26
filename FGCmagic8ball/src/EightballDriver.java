@@ -1,7 +1,14 @@
 import java.util.Scanner;
 /**
  * 
- * This is my Magic Eightball project
+ * This is my Magic Eightball final CS project
+ * 
+ * A Magic Eightball is a novelty toy that contains a d20 die on the inside that will display one of twenty answers when shaken. 10 are positive, 5 are neutral, and 5 are negative.
+ * Using the "eightball.shake" method, a random answer from a string array is pulled from and displayed as the given answer. 
+ * 
+ * The function "Thinking" uses a "Thread.sleep" method which, when ran, will pause the thread thats currently running for X amount of time. After the time has passed, the thread becomes 
+ * runnable again and continues execution based on the scheduling. (1000 units = 1 second)
+ * 
  * @author Sydney De La Cruz 
  * @since 5/4/2026
  * 
